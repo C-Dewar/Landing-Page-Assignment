@@ -46,7 +46,7 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 	margin: 50px;
 	overflow: visible;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 
 	/* // THE LINES */
 	span,
@@ -130,7 +130,8 @@ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 		visibility: visible;
 		opacity: 1;
 		padding-top: 100px;
-		background: rgba(0, 0, 0, 0.5);
+        margin-left:-20px;
+		background: rgba(0, 0, 0, 0.8);
 	}
 
 	ul {
